@@ -1,0 +1,51 @@
+信息系统与数据库技术练习6答题卡
+
+班级：      计算机信息管理一班
+姓名：     余晓伟
+学号：     20190307109
+
+注：请将答案放置在序号下方。*/
+
+1.
+CREATE DATABASE OnlineShop
+GO
+
+
+
+2.
+USE OnlineShop
+GO
+
+
+3.
+CREATE TABLE Customer
+(
+Cid int PRIMARY KEY,
+Card char(18) NOT NULL,
+Cname nVarChar(3)  NOT NULL,
+RegDate dateTime NOT NULL,
+Meanvalue numeri (12,[2]),
+)
+4.
+
+CREATE TABLE Books
+(
+Bid CHAR(4) PRIMARY KEY,
+Bname VARCHAR(20) NOT NULL,
+Author VARCHAR(15),
+Publisher VARCHAR(30),
+PublisherDate dateTime,
+Price money(8)
+Discount deciaml(3,[5])
+)
+
+5.
+
+
+
+6.
+
+
+7.
+
+
